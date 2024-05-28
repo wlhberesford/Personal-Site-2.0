@@ -21,7 +21,7 @@
 
 .Card-Img-Div{
     width: 90%;
-    height: 30vh;
+    height: 27vh;
     margin: 5%;
     align-content: center;
 
@@ -29,16 +29,12 @@
 
     overflow: hidden;
 
-    
-
 }
-
 
 .Card-Img{
     width: 100%;
-    object-fit:
-   
-    
+    object-fit: cover;
+    aspect-ratio: 3/2;
 }
 
 .Card-Dropdown{
