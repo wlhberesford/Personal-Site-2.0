@@ -1,0 +1,54 @@
+/*  intro  */
+
+.Intro-Body{
+    height: 97vh;
+    display: flex;
+    width: 100%;
+  
+  }
+  
+  .Intro-Content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  
+    width: 100%;
+    height: fit-content;
+  
+    align-self: center;
+  }
+  
+  .My-Img{
+    width: 80%;
+    float: right;
+  }
+  
+  .Intro-Text-Div{
+    align-self: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+
+    align-content: center;
+
+  }
+  
+  .Main-Type-Div{
+    height: 7svw;
+    color: var(--clr-text);
+
+    font-size: 7svw;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .Sub-Type-Div{
+    margin: 0%;
+    height: 2.5svw;
+    color: var(--clr-text-alt);
+
+    font-size: 2.5svw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+  }

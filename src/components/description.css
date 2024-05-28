@@ -1,0 +1,33 @@
+.Description-Div{
+    height: 90vh;
+    width: 100%;
+
+    margin: 0;
+
+    justify-content: center;
+
+}
+
+.Desc-Title-Div{
+    width: 100vw;
+    height: min-content;
+}
+
+.Desc-Title-Text{
+    text-align: center;
+    font-size: 10vh;
+    margin: 0%;
+}
+
+.Desc-Body{
+    display: flex;
+    width: 100vw;
+
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.Desc-Card{
+    width: 25vw;
+    height: min-content;
+}

@@ -5,7 +5,7 @@
 }
 
 :root{
-    --ff-primary: 'Garamond', serif;
+    --ff-primary: 'Tahoma', sans-serif;
     --ff-secondary: 'Courier New', monospace;
 
     --fw-reg: 300;
@@ -14,7 +14,7 @@
 
     --clr-bg: #ADB5BD;
     --clr-text: #040404;
-    --clr-texta: #697179;
+    --clr-text-alt: #697179;
     --clr-accent: #0C7489;
 
 
@@ -48,16 +48,6 @@ img{
     max-width: 100%;
 }
 
-h1,
-h2,
-h3 {
-    line-height: 1.1;
-    margin: 0;
-}
-
-h1 { font-size: var(--fs-h1);}
-h2 { font-size: var(--fs-h2);}
-h3 { font-size: var(--fs-h3) ;}
 
 [dark-mode = "true"]{
   --clr-accent: #D7D9CE;
@@ -66,28 +56,3 @@ h3 { font-size: var(--fs-h3) ;}
   --clr-text: #0C7489;
 } 
 
-.Nav-Bar{
-  display: flex;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.Nav-Name{
-  margin: 0;
-  width: 50%;
-  display: flex;
-}
-
-.Nav-List{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float : right;  
-}
-
-.Nav-Item{
-  float: left;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-}
