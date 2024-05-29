@@ -1,0 +1,46 @@
+.Footer{
+    border-top: 3px var(--clr-text-alt);
+    height: 10vh;
+}
+
+.Footer-Copyright{
+    text-align: center ;
+    margin: 0%;
+}
+
+.Footer-Line{
+    height: 0.2vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 85%;
+    background-color: var(--clr-text-alt);
+}
+
+.Socials{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+
+}
+
+.Social-Img{
+    width: 5vh;
+}
+
+.Social-Img:hover{
+    animation: floater 2s infinite linear ;
+}
+
+@keyframes floater {
+    from{
+        transform: rotate(0deg) translate(0.5vw) rotate(0deg);
+    }to{
+        transform: rotate(360deg) translate(0.5vw) rotate(-360deg);
+    }
+  }
+

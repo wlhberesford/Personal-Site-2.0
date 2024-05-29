@@ -23,7 +23,10 @@ function Description(){
             </div>
             <div className='Desc-Card'>
                 <Hovercard title = "Experience" 
-                text = ""
+                text = "This Summer I am an intern with Optum, part of United 
+                    HealthGroup. In addition to class work I am leading the 
+                    development of Munch, a web app with the goal of improving
+                    UX for those who use the dining halls at RPI. "
                 pic={Optumn}
                 />
             </div>
