@@ -2,10 +2,16 @@
     width: 100%;
     height: 100%;
     margin: 0%;
-    border-radius: 10%;
+    border-radius: 5vh;
 
-    background-color: var(--clr-text);
+    padding: 5%;
 
+    background-color: var(--clr-dark);
+
+    display: grid;
+    justify-content: center;
+}
+.Card-Div{
     display: grid;
     justify-content: center;
 }
@@ -25,20 +31,23 @@
 
 .Card-Img-Div{
     width: 90%;
-    height: 27vh;
-    margin: 5%;
+    height: 25vh;
     align-content: center;
-
-    border-radius: 15%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 
     overflow: hidden;
-
 }
+
+
 
 .Card-Img{
     width: 100%;
     object-fit: cover;
     aspect-ratio: 3/2;
+
+    border-radius: 1vh;
 }
 
 .Card-Dropdown{

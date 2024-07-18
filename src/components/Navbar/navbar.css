@@ -8,6 +8,8 @@
     height: 5vh;
 
     position: fixed;
+    opacity: 0.99;
+
   }
   
   .Nav-Name{
@@ -15,14 +17,16 @@
     width: 50%;
     display: flex;
 
-    font-size: 1.5svw;
+    font-size: 3vh;
+
+    color: var(--clr-accent);
   }
   
   .Nav-List{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float : right;  
+     
   }
   
   .Nav-Item{
@@ -30,5 +34,31 @@
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     font-size: 1.5svw;
+  }
+
+  .Nav-Left,
+  .Nav-Right{
+    padding: 0.5rem;
+    background-color: var(--clr-dark);
+  
+
+  }
+
+
+  .My-Img-Div{
+    border-radius: 50%;
+    overflow: hidden;
+    
+    float: right;
+    margin-right: 5px;
+
+  }
+  
+  .My-Img{
+    height: 4.5vh;
+    width: 4.5vh;
+    object-fit: cover;
+    object-position: 0 -1%;
+
 
   }

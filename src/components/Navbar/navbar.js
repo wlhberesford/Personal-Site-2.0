@@ -1,5 +1,7 @@
 import React from 'react'
 import "./navbar.css"
+import headshot from "../../img/HeadShotW24.jpg"
+
 
 function Navbar() {
   return (
@@ -8,18 +10,16 @@ function Navbar() {
             <p className='Nav-Name'>Liam Beresford</p>
         </div>
         <div className='Nav-Right'>
-            <ul className='Nav-List'>
-                <li className='Nav-Item'>About Me</li>
-                <li className='Nav-Item'>Experience</li>
-                <li className='Nav-Item'>Contact</li>
-
-
-            </ul>
+        <div className='My-Img-Div'>
+                <img className ='My-Img' src={headshot} alt='OH NO I FORGOT A PITURE HERE' />
+            </div>
         </div>
 
         
     </div>
   )
+
 }
 
 export default Navbar
+

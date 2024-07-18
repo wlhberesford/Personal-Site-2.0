@@ -2,7 +2,7 @@ import React from 'react'
 import  { useState, useEffect } from 'react';
 import "./typewriter.css"
 
-const useTypewriter = (text, speed = 50) => {
+const useTypewriter = (text, align="left",  speed = 50) => {
   const [displayText, setDisplayText] = useState('');
   var i = 0;
 
@@ -30,7 +30,8 @@ function Typewriter({ text, speed }) {
 
   return (
     <div className='Typewrite-Div'>
-      <p className='Typed-Text'>{displayText}</p>
+      
+      <p className='Typed-Text' >{displayText}</p>
     </div>);
 };
 
