@@ -1,5 +1,6 @@
 .Footer{
     border-top: 3px var(--clr-text-alt);
+    padding-top:10vh;
     height: 10vh;
 }
 

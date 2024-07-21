@@ -1,5 +1,5 @@
 .Description-Div{
-    height: 90vh;
+    height: max(50vh,fit-content);
     width: 100%;
 
     margin: 0;
