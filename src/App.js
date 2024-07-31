@@ -4,7 +4,13 @@ import Intro from './components/Intro/intro';
 import Description from './components/Description/description';
 import Footer from './components/Footer/footer';
 
-function App() {
+import Favicon from '../src/img/favicon.png'
+import Favicon from "react-favicon";
+
+const App = () => {
+  const [faviconUrl, setFaviconUrl] = useState(
+    Favicon
+        );
   return (
     <div  className="App" >
       <Navbar />
@@ -13,7 +19,7 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
 
